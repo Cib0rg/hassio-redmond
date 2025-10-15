@@ -96,7 +96,7 @@ async def async_setup_entry(hass: HomeAssistant, config_entry: ConfigEntry):
     async_track_time_interval(hass, hass.data[DOMAIN][config_entry.entry_id].update, scan_delta)
 
     for component in SUPPORTED_DOMAINS:
-        hass.async_create_task(hass.config_entries.async_forward_entry_setup(config_entry, component))
+        hass.async_create_task(hass.config_entries.async_forward_entry_setups(config_entry, component))
 
     return True
 
