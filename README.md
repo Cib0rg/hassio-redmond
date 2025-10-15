@@ -6,6 +6,7 @@ Allows you to connect Redmond Kettle, Cooker, Socket and Heat to your Home Assis
 
 ###### _Full list of supported devices see in: [r4sconst.py](https://github.com/XNicON/hassio-r4s/blob/master/custom_components/ready4sky/r4sconst.py)_
 
+[16.10.2025] Fixed for new versions of HomeAssistant
 ---
 
 ## Requirements
